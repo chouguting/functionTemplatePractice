@@ -1,3 +1,5 @@
+#pragma clang diagnostic ignored "-Winvalid-source-encoding"
+
 #include <iostream>
 #include "stack.h"
 

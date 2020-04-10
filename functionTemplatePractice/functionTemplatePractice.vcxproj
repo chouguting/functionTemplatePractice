@@ -139,7 +139,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="stack_define.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stack.h" />

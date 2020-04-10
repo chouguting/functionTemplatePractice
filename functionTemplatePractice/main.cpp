@@ -34,6 +34,13 @@ int main()
 	system("pause");
 	
 	cout << "第二小題" << endl;
-	stackDefine();
+	system("cls");
+	stack_define<int, 10> theStack;
+	cout << " stack data type: int\nstack 大小 : 10\n";
+	doStackStuff(theStack);
+	cout << " stack data type: float\nstack 大小 : 5\n";
+	stack_define<float, 5> theStack2;
+	doStackStuff(theStack2);
+	cout << "Bye Bye\n\n";
 	
 }
